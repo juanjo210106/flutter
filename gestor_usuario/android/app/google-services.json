@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "510707530076",
+    "project_id": "gestusuario2526-bb70b",
+    "storage_bucket": "gestusuario2526-bb70b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510707530076:android:46bf4dad35db8c47f92999",
+        "android_client_info": {
+          "package_name": "com.example.gestor_usuario"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiUxg_2Kjqf9HaDwjQYLGPvaq16K96zok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
