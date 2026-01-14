@@ -24,7 +24,13 @@ tasks.register<Delete>("clean") {
 }
 
 buildscript {
-    dependencies{
-        classpath 'com.google.gms:google-services:4.3.15'
+    repositories {
+        // Estos repositorios son necesarios para descargar el plugin de Google Services
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Asegúrate de usar paréntesis y comillas dobles para Kotlin DSL
+        classpath("com.google.gms:google-services:4.3.15")
     }
 }
